@@ -12,6 +12,8 @@ namespace PassportApplication
 {
     public partial class Form1 : Form
     {
+
+        //public static string firstName, middleName, lastName, emailAddress, homeAddress, Occupation , destinationCountry , guardianName, guardianHomeAddress, oldPassportNo, passportIssueDate, passportExpiryDate;
         public Form1()
         {
             InitializeComponent();
@@ -33,6 +35,12 @@ namespace PassportApplication
             {
 
             }
+        }
+
+        private void dTPickerPassportIssueDate_ValueChanged(object sender, EventArgs e)
+        {
+            DateTime dt = dTPickerPassportIssueDate.Value;
+            dTPickerPassportExpiryDate.MinDate = dt;
         }
     }
 }

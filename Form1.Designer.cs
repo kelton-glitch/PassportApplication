@@ -32,44 +32,44 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtfirstName = new System.Windows.Forms.TextBox();
+            this.txtLastName = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtMiddleName = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtOccupation = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtDestination = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txtEmailAddress = new System.Windows.Forms.TextBox();
+            this.txtPhoneNumber = new System.Windows.Forms.TextBox();
+            this.txtHomeAddress = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txtGuardianName = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.txtGuardianPhone = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.txtGuardianHome = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.txtExpiredPassport = new System.Windows.Forms.TextBox();
             this.dTPickerPassportIssueDate = new System.Windows.Forms.DateTimePicker();
             this.dTPickerPassportExpiryDate = new System.Windows.Forms.DateTimePicker();
             this.btnSubmit = new System.Windows.Forms.Button();
@@ -117,19 +117,19 @@
             this.label5.TabIndex = 4;
             this.label5.Text = "Last Name: ";
             // 
-            // textBox1
+            // txtfirstName
             // 
-            this.textBox1.Location = new System.Drawing.Point(183, 138);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(168, 22);
-            this.textBox1.TabIndex = 5;
+            this.txtfirstName.Location = new System.Drawing.Point(183, 138);
+            this.txtfirstName.Name = "txtfirstName";
+            this.txtfirstName.Size = new System.Drawing.Size(168, 22);
+            this.txtfirstName.TabIndex = 5;
             // 
-            // textBox2
+            // txtLastName
             // 
-            this.textBox2.Location = new System.Drawing.Point(1070, 134);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(168, 22);
-            this.textBox2.TabIndex = 6;
+            this.txtLastName.Location = new System.Drawing.Point(1070, 134);
+            this.txtLastName.Name = "txtLastName";
+            this.txtLastName.Size = new System.Drawing.Size(168, 22);
+            this.txtLastName.TabIndex = 6;
             // 
             // label6
             // 
@@ -141,12 +141,12 @@
             this.label6.TabIndex = 3;
             this.label6.Text = "Middle Name: ";
             // 
-            // textBox4
+            // txtMiddleName
             // 
-            this.textBox4.Location = new System.Drawing.Point(626, 136);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(168, 22);
-            this.textBox4.TabIndex = 7;
+            this.txtMiddleName.Location = new System.Drawing.Point(626, 136);
+            this.txtMiddleName.Name = "txtMiddleName";
+            this.txtMiddleName.Size = new System.Drawing.Size(168, 22);
+            this.txtMiddleName.TabIndex = 7;
             // 
             // label4
             // 
@@ -175,12 +175,12 @@
             this.label7.TabIndex = 10;
             this.label7.Text = "Occupation:";
             // 
-            // textBox3
+            // txtOccupation
             // 
-            this.textBox3.Location = new System.Drawing.Point(626, 306);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(168, 22);
-            this.textBox3.TabIndex = 11;
+            this.txtOccupation.Location = new System.Drawing.Point(626, 306);
+            this.txtOccupation.Name = "txtOccupation";
+            this.txtOccupation.Size = new System.Drawing.Size(168, 22);
+            this.txtOccupation.TabIndex = 11;
             // 
             // label8
             // 
@@ -192,12 +192,12 @@
             this.label8.TabIndex = 12;
             this.label8.Text = "Destination country:";
             // 
-            // textBox5
+            // txtDestination
             // 
-            this.textBox5.Location = new System.Drawing.Point(1070, 306);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(168, 22);
-            this.textBox5.TabIndex = 13;
+            this.txtDestination.Location = new System.Drawing.Point(1070, 306);
+            this.txtDestination.Name = "txtDestination";
+            this.txtDestination.Size = new System.Drawing.Size(168, 22);
+            this.txtDestination.TabIndex = 13;
             // 
             // label9
             // 
@@ -229,26 +229,26 @@
             this.label11.TabIndex = 16;
             this.label11.Text = "Home Address: ";
             // 
-            // textBox6
+            // txtEmailAddress
             // 
-            this.textBox6.Location = new System.Drawing.Point(209, 217);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(168, 22);
-            this.textBox6.TabIndex = 17;
+            this.txtEmailAddress.Location = new System.Drawing.Point(209, 217);
+            this.txtEmailAddress.Name = "txtEmailAddress";
+            this.txtEmailAddress.Size = new System.Drawing.Size(168, 22);
+            this.txtEmailAddress.TabIndex = 17;
             // 
-            // textBox7
+            // txtPhoneNumber
             // 
-            this.textBox7.Location = new System.Drawing.Point(626, 215);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(168, 22);
-            this.textBox7.TabIndex = 18;
+            this.txtPhoneNumber.Location = new System.Drawing.Point(626, 215);
+            this.txtPhoneNumber.Name = "txtPhoneNumber";
+            this.txtPhoneNumber.Size = new System.Drawing.Size(168, 22);
+            this.txtPhoneNumber.TabIndex = 18;
             // 
-            // textBox8
+            // txtHomeAddress
             // 
-            this.textBox8.Location = new System.Drawing.Point(1070, 213);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(168, 22);
-            this.textBox8.TabIndex = 19;
+            this.txtHomeAddress.Location = new System.Drawing.Point(1070, 213);
+            this.txtHomeAddress.Name = "txtHomeAddress";
+            this.txtHomeAddress.Size = new System.Drawing.Size(168, 22);
+            this.txtHomeAddress.TabIndex = 19;
             // 
             // label12
             // 
@@ -270,12 +270,12 @@
             this.label13.TabIndex = 21;
             this.label13.Text = "personal information ";
             // 
-            // textBox9
+            // txtGuardianName
             // 
-            this.textBox9.Location = new System.Drawing.Point(183, 451);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(168, 22);
-            this.textBox9.TabIndex = 23;
+            this.txtGuardianName.Location = new System.Drawing.Point(183, 451);
+            this.txtGuardianName.Name = "txtGuardianName";
+            this.txtGuardianName.Size = new System.Drawing.Size(168, 22);
+            this.txtGuardianName.TabIndex = 23;
             // 
             // label14
             // 
@@ -287,12 +287,12 @@
             this.label14.TabIndex = 22;
             this.label14.Text = "Full Name:";
             // 
-            // textBox10
+            // txtGuardianPhone
             // 
-            this.textBox10.Location = new System.Drawing.Point(648, 451);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(168, 22);
-            this.textBox10.TabIndex = 25;
+            this.txtGuardianPhone.Location = new System.Drawing.Point(648, 451);
+            this.txtGuardianPhone.Name = "txtGuardianPhone";
+            this.txtGuardianPhone.Size = new System.Drawing.Size(168, 22);
+            this.txtGuardianPhone.TabIndex = 25;
             // 
             // label15
             // 
@@ -304,12 +304,12 @@
             this.label15.TabIndex = 24;
             this.label15.Text = "Phone Number:";
             // 
-            // textBox11
+            // txtGuardianHome
             // 
-            this.textBox11.Location = new System.Drawing.Point(1074, 449);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(168, 22);
-            this.textBox11.TabIndex = 27;
+            this.txtGuardianHome.Location = new System.Drawing.Point(1074, 449);
+            this.txtGuardianHome.Name = "txtGuardianHome";
+            this.txtGuardianHome.Size = new System.Drawing.Size(168, 22);
+            this.txtGuardianHome.TabIndex = 27;
             // 
             // label16
             // 
@@ -353,17 +353,6 @@
             this.radioButton3.Text = "International";
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(141, 3);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(92, 20);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Diplomatic";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
@@ -374,6 +363,17 @@
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Ordinary";
             this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(141, 3);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(92, 20);
+            this.radioButton2.TabIndex = 1;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Diplomatic";
+            this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // label17
             // 
@@ -405,17 +405,6 @@
             this.groupBox2.TabIndex = 32;
             this.groupBox2.TabStop = false;
             // 
-            // radioButton4
-            // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(11, 3);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(52, 20);
-            this.radioButton4.TabIndex = 3;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Yes";
-            this.radioButton4.UseVisualStyleBackColor = true;
-            // 
             // radioButton5
             // 
             this.radioButton5.AutoSize = true;
@@ -426,6 +415,17 @@
             this.radioButton5.TabStop = true;
             this.radioButton5.Text = "No";
             this.radioButton5.UseVisualStyleBackColor = true;
+            // 
+            // radioButton4
+            // 
+            this.radioButton4.AutoSize = true;
+            this.radioButton4.Location = new System.Drawing.Point(11, 3);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.Size = new System.Drawing.Size(52, 20);
+            this.radioButton4.TabIndex = 3;
+            this.radioButton4.TabStop = true;
+            this.radioButton4.Text = "Yes";
+            this.radioButton4.UseVisualStyleBackColor = true;
             // 
             // label19
             // 
@@ -457,12 +457,12 @@
             this.label21.TabIndex = 35;
             this.label21.Text = "Passport Issue Date:";
             // 
-            // textBox12
+            // txtExpiredPassport
             // 
-            this.textBox12.Location = new System.Drawing.Point(851, 623);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(168, 22);
-            this.textBox12.TabIndex = 36;
+            this.txtExpiredPassport.Location = new System.Drawing.Point(851, 623);
+            this.txtExpiredPassport.Name = "txtExpiredPassport";
+            this.txtExpiredPassport.Size = new System.Drawing.Size(168, 22);
+            this.txtExpiredPassport.TabIndex = 36;
             // 
             // dTPickerPassportIssueDate
             // 
@@ -470,6 +470,7 @@
             this.dTPickerPassportIssueDate.Name = "dTPickerPassportIssueDate";
             this.dTPickerPassportIssueDate.Size = new System.Drawing.Size(200, 22);
             this.dTPickerPassportIssueDate.TabIndex = 37;
+            this.dTPickerPassportIssueDate.ValueChanged += new System.EventHandler(this.dTPickerPassportIssueDate_ValueChanged);
             // 
             // dTPickerPassportExpiryDate
             // 
@@ -495,11 +496,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1315, 838);
+            this.ClientSize = new System.Drawing.Size(1288, 843);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.dTPickerPassportExpiryDate);
             this.Controls.Add(this.dTPickerPassportIssueDate);
-            this.Controls.Add(this.textBox12);
+            this.Controls.Add(this.txtExpiredPassport);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.label19);
@@ -508,29 +509,29 @@
             this.Controls.Add(this.label17);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.textBox11);
+            this.Controls.Add(this.txtGuardianHome);
             this.Controls.Add(this.label16);
-            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.txtGuardianPhone);
             this.Controls.Add(this.label15);
-            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.txtGuardianName);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.txtHomeAddress);
+            this.Controls.Add(this.txtPhoneNumber);
+            this.Controls.Add(this.txtEmailAddress);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtDestination);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtOccupation);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtMiddleName);
+            this.Controls.Add(this.txtLastName);
+            this.Controls.Add(this.txtfirstName);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label3);
@@ -553,29 +554,29 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtfirstName;
+        private System.Windows.Forms.TextBox txtLastName;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtMiddleName;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtOccupation;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtDestination;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox txtEmailAddress;
+        private System.Windows.Forms.TextBox txtPhoneNumber;
+        private System.Windows.Forms.TextBox txtHomeAddress;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txtGuardianName;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox txtGuardianPhone;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox txtGuardianHome;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.GroupBox groupBox1;
@@ -590,7 +591,7 @@
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox txtExpiredPassport;
         private System.Windows.Forms.DateTimePicker dTPickerPassportIssueDate;
         private System.Windows.Forms.DateTimePicker dTPickerPassportExpiryDate;
         private System.Windows.Forms.Button btnSubmit;
