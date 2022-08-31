@@ -58,14 +58,14 @@
             this.label16 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.rdbInternational = new System.Windows.Forms.RadioButton();
+            this.rdbOrdinary = new System.Windows.Forms.RadioButton();
+            this.rdbDiplomatic = new System.Windows.Forms.RadioButton();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.rdbYes = new System.Windows.Forms.RadioButton();
+            this.rdbNo = new System.Windows.Forms.RadioButton();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
@@ -186,7 +186,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(856, 304);
+            this.label8.Location = new System.Drawing.Point(847, 304);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(212, 23);
             this.label8.TabIndex = 12;
@@ -315,7 +315,7 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(912, 449);
+            this.label16.Location = new System.Drawing.Point(902, 449);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(156, 23);
             this.label16.TabIndex = 26;
@@ -333,47 +333,50 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.radioButton3);
-            this.groupBox1.Controls.Add(this.radioButton1);
-            this.groupBox1.Controls.Add(this.radioButton2);
+            this.groupBox1.Controls.Add(this.rdbInternational);
+            this.groupBox1.Controls.Add(this.rdbOrdinary);
+            this.groupBox1.Controls.Add(this.rdbDiplomatic);
             this.groupBox1.Location = new System.Drawing.Point(219, 536);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(387, 23);
             this.groupBox1.TabIndex = 29;
             this.groupBox1.TabStop = false;
             // 
-            // radioButton3
+            // rdbInternational
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(276, 3);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(100, 20);
-            this.radioButton3.TabIndex = 2;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "International";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.rdbInternational.AutoSize = true;
+            this.rdbInternational.Location = new System.Drawing.Point(276, 3);
+            this.rdbInternational.Name = "rdbInternational";
+            this.rdbInternational.Size = new System.Drawing.Size(100, 20);
+            this.rdbInternational.TabIndex = 2;
+            this.rdbInternational.TabStop = true;
+            this.rdbInternational.Text = "International";
+            this.rdbInternational.UseVisualStyleBackColor = true;
+            this.rdbInternational.CheckedChanged += new System.EventHandler(this.rdbInternational_CheckedChanged);
             // 
-            // radioButton1
+            // rdbOrdinary
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(19, 3);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(79, 20);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Ordinary";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rdbOrdinary.AutoSize = true;
+            this.rdbOrdinary.Location = new System.Drawing.Point(19, 3);
+            this.rdbOrdinary.Name = "rdbOrdinary";
+            this.rdbOrdinary.Size = new System.Drawing.Size(79, 20);
+            this.rdbOrdinary.TabIndex = 0;
+            this.rdbOrdinary.TabStop = true;
+            this.rdbOrdinary.Text = "Ordinary";
+            this.rdbOrdinary.UseVisualStyleBackColor = true;
+            this.rdbOrdinary.CheckedChanged += new System.EventHandler(this.rdbOrdinary_CheckedChanged);
             // 
-            // radioButton2
+            // rdbDiplomatic
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(141, 3);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(92, 20);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Diplomatic";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rdbDiplomatic.AutoSize = true;
+            this.rdbDiplomatic.Location = new System.Drawing.Point(141, 3);
+            this.rdbDiplomatic.Name = "rdbDiplomatic";
+            this.rdbDiplomatic.Size = new System.Drawing.Size(92, 20);
+            this.rdbDiplomatic.TabIndex = 1;
+            this.rdbDiplomatic.TabStop = true;
+            this.rdbDiplomatic.Text = "Diplomatic";
+            this.rdbDiplomatic.UseVisualStyleBackColor = true;
+            this.rdbDiplomatic.CheckedChanged += new System.EventHandler(this.rdbDiplomatic_CheckedChanged);
             // 
             // label17
             // 
@@ -397,35 +400,37 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.radioButton5);
-            this.groupBox2.Controls.Add(this.radioButton4);
-            this.groupBox2.Location = new System.Drawing.Point(324, 623);
+            this.groupBox2.Controls.Add(this.rdbYes);
+            this.groupBox2.Controls.Add(this.rdbNo);
+            this.groupBox2.Location = new System.Drawing.Point(324, 624);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(201, 22);
             this.groupBox2.TabIndex = 32;
             this.groupBox2.TabStop = false;
             // 
-            // radioButton5
+            // rdbYes
             // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(116, 2);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(46, 20);
-            this.radioButton5.TabIndex = 4;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "No";
-            this.radioButton5.UseVisualStyleBackColor = true;
+            this.rdbYes.AutoSize = true;
+            this.rdbYes.Location = new System.Drawing.Point(18, 3);
+            this.rdbYes.Name = "rdbYes";
+            this.rdbYes.Size = new System.Drawing.Size(52, 20);
+            this.rdbYes.TabIndex = 40;
+            this.rdbYes.TabStop = true;
+            this.rdbYes.Text = "Yes";
+            this.rdbYes.UseVisualStyleBackColor = true;
+            this.rdbYes.CheckedChanged += new System.EventHandler(this.rdbYes_CheckedChanged);
             // 
-            // radioButton4
+            // rdbNo
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(11, 3);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(52, 20);
-            this.radioButton4.TabIndex = 3;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Yes";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.rdbNo.AutoSize = true;
+            this.rdbNo.Location = new System.Drawing.Point(116, 2);
+            this.rdbNo.Name = "rdbNo";
+            this.rdbNo.Size = new System.Drawing.Size(46, 20);
+            this.rdbNo.TabIndex = 4;
+            this.rdbNo.TabStop = true;
+            this.rdbNo.Text = "No";
+            this.rdbNo.UseVisualStyleBackColor = true;
+            this.rdbNo.CheckedChanged += new System.EventHandler(this.rdbNo_CheckedChanged);
             // 
             // label19
             // 
@@ -538,6 +543,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Passport Application Form";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -580,14 +586,13 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton rdbInternational;
+        private System.Windows.Forms.RadioButton rdbDiplomatic;
+        private System.Windows.Forms.RadioButton rdbOrdinary;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.RadioButton rdbNo;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
@@ -595,6 +600,7 @@
         private System.Windows.Forms.DateTimePicker dTPickerPassportIssueDate;
         private System.Windows.Forms.DateTimePicker dTPickerPassportExpiryDate;
         private System.Windows.Forms.Button btnSubmit;
+        private System.Windows.Forms.RadioButton rdbYes;
     }
 }
 
