@@ -14,7 +14,7 @@ namespace PassportApplication
     {
         public static Boolean Yes, No, Ordinary, Diplomatic, International;
         public static string firstName, middleName, lastName, emailAddress, homeAddress, Occupation ,dateOfBirth, destinationCountry , guardianName, guardianHomeAddress, oldPassportNo, passportIssueDate, passportExpiryDate;
-
+        public static int phoneNumber, guardianPhone;
         private void rdbYes_CheckedChanged(object sender, EventArgs e)
         {
             Yes = true;
@@ -40,7 +40,7 @@ namespace PassportApplication
             Ordinary = true;
         }
 
-        public static int phoneNumber, guardianPhone;
+       
         public Form1()
         {
             InitializeComponent();
@@ -75,6 +75,8 @@ namespace PassportApplication
                         return;
                     }
                 }
+
+                /// In case of implementing a class using a database
                 /*
                 Person person = new Person();
                 person.FirstName = txtfirstName.Text;

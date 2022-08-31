@@ -21,7 +21,7 @@ namespace PassportApplication
         {
             lblGuardianName.Text = Form1.guardianName;
             lblGuardianHome.Text = Form1.guardianHomeAddress;
-            //lblGuardianPhone.Text = Form1.guardianPhone;
+            lblGuardianPhone.Text = Form1.guardianPhone.ToString();
             lblPassportNo.Text = Form1.oldPassportNo;
             lblPassportIssueDate.Text = Form1.passportIssueDate;
             lblPassportExpiryDate.Text = Form1.passportExpiryDate;

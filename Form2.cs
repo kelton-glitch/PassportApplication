@@ -24,7 +24,7 @@ namespace PassportApplication
             lblLastName.Text = Form1.lastName;
             lblEmailAddress.Text = Form1.emailAddress;
             lblDateOfBirth.Text = Form1.dateOfBirth;
-            //lblPhoneNumber.Text = int.Parse(Form1.phoneNumber);
+            lblPhoneNumber.Text = Form1.phoneNumber.ToString();
             lblHomeAddress.Text = Form1.homeAddress;
             lblOccupation.Text = Form1.Occupation;
             lblDestination.Text = Form1.destinationCountry;
