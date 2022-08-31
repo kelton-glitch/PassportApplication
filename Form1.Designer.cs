@@ -66,9 +66,9 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.rdbYes = new System.Windows.Forms.RadioButton();
             this.rdbNo = new System.Windows.Forms.RadioButton();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
+            this.lblNumber = new System.Windows.Forms.Label();
+            this.lblExpiry = new System.Windows.Forms.Label();
+            this.lblIssue = new System.Windows.Forms.Label();
             this.txtExpiredPassport = new System.Windows.Forms.TextBox();
             this.dTPickerPassportIssueDate = new System.Windows.Forms.DateTimePicker();
             this.dTPickerPassportExpiryDate = new System.Windows.Forms.DateTimePicker();
@@ -101,7 +101,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(47, 136);
+            this.label3.Location = new System.Drawing.Point(40, 135);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(130, 23);
             this.label3.TabIndex = 2;
@@ -135,7 +135,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(471, 137);
+            this.label6.Location = new System.Drawing.Point(457, 137);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(149, 23);
             this.label6.TabIndex = 3;
@@ -152,7 +152,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(48, 307);
+            this.label4.Location = new System.Drawing.Point(41, 306);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(154, 23);
             this.label4.TabIndex = 8;
@@ -203,7 +203,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(459, 215);
+            this.label9.Location = new System.Drawing.Point(445, 215);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(161, 23);
             this.label9.TabIndex = 14;
@@ -213,7 +213,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(47, 215);
+            this.label10.Location = new System.Drawing.Point(40, 214);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(155, 23);
             this.label10.TabIndex = 15;
@@ -254,7 +254,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Algerian", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(47, 392);
+            this.label12.Location = new System.Drawing.Point(40, 391);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(260, 22);
             this.label12.TabIndex = 20;
@@ -264,7 +264,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Algerian", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(38, 89);
+            this.label13.Location = new System.Drawing.Point(31, 88);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(244, 22);
             this.label13.TabIndex = 21;
@@ -281,7 +281,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(47, 449);
+            this.label14.Location = new System.Drawing.Point(40, 448);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(117, 23);
             this.label14.TabIndex = 22;
@@ -382,7 +382,7 @@
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(38, 536);
+            this.label17.Location = new System.Drawing.Point(31, 535);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(175, 23);
             this.label17.TabIndex = 30;
@@ -392,7 +392,7 @@
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(38, 623);
+            this.label18.Location = new System.Drawing.Point(31, 622);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(280, 23);
             this.label18.TabIndex = 31;
@@ -432,35 +432,35 @@
             this.rdbNo.UseVisualStyleBackColor = true;
             this.rdbNo.CheckedChanged += new System.EventHandler(this.rdbNo_CheckedChanged);
             // 
-            // label19
+            // lblNumber
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(660, 622);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(185, 23);
-            this.label19.TabIndex = 33;
-            this.label19.Text = "Passport Number:";
+            this.lblNumber.AutoSize = true;
+            this.lblNumber.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumber.Location = new System.Drawing.Point(644, 622);
+            this.lblNumber.Name = "lblNumber";
+            this.lblNumber.Size = new System.Drawing.Size(185, 23);
+            this.lblNumber.TabIndex = 33;
+            this.lblNumber.Text = "Passport Number:";
             // 
-            // label20
+            // lblExpiry
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(660, 715);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(221, 23);
-            this.label20.TabIndex = 34;
-            this.label20.Text = "Passport Expiry Date:";
+            this.lblExpiry.AutoSize = true;
+            this.lblExpiry.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblExpiry.Location = new System.Drawing.Point(644, 714);
+            this.lblExpiry.Name = "lblExpiry";
+            this.lblExpiry.Size = new System.Drawing.Size(221, 23);
+            this.lblExpiry.TabIndex = 34;
+            this.lblExpiry.Text = "Passport Expiry Date:";
             // 
-            // label21
+            // lblIssue
             // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(38, 715);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(212, 23);
-            this.label21.TabIndex = 35;
-            this.label21.Text = "Passport Issue Date:";
+            this.lblIssue.AutoSize = true;
+            this.lblIssue.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIssue.Location = new System.Drawing.Point(31, 714);
+            this.lblIssue.Name = "lblIssue";
+            this.lblIssue.Size = new System.Drawing.Size(212, 23);
+            this.lblIssue.TabIndex = 35;
+            this.lblIssue.Text = "Passport Issue Date:";
             // 
             // txtExpiredPassport
             // 
@@ -506,9 +506,9 @@
             this.Controls.Add(this.dTPickerPassportExpiryDate);
             this.Controls.Add(this.dTPickerPassportIssueDate);
             this.Controls.Add(this.txtExpiredPassport);
-            this.Controls.Add(this.label21);
-            this.Controls.Add(this.label20);
-            this.Controls.Add(this.label19);
+            this.Controls.Add(this.lblIssue);
+            this.Controls.Add(this.lblExpiry);
+            this.Controls.Add(this.lblNumber);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label17);
@@ -593,9 +593,9 @@
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.RadioButton rdbNo;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label lblNumber;
+        private System.Windows.Forms.Label lblExpiry;
+        private System.Windows.Forms.Label lblIssue;
         private System.Windows.Forms.TextBox txtExpiredPassport;
         private System.Windows.Forms.DateTimePicker dTPickerPassportIssueDate;
         private System.Windows.Forms.DateTimePicker dTPickerPassportExpiryDate;

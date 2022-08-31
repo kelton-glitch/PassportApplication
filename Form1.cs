@@ -17,11 +17,30 @@ namespace PassportApplication
         public static int phoneNumber, guardianPhone;
         private void rdbYes_CheckedChanged(object sender, EventArgs e)
         {
+            if (rdbYes.Checked)
+            {
+                lblNumber.Enabled = false;
+                txtExpiredPassport.Enabled = false;
+                lblIssue.Enabled = false;
+                dTPickerPassportIssueDate.Enabled = false;
+                lblExpiry.Enabled = false;
+                dTPickerPassportExpiryDate.Enabled = false;
+            }
             Yes = true;
         }
 
         private void rdbNo_CheckedChanged(object sender, EventArgs e)
         {
+            if (rdbNo.Checked)
+            {
+                lblNumber.Enabled = true;
+                txtExpiredPassport.Enabled = true;
+                lblIssue.Enabled = true;
+                dTPickerPassportIssueDate.Enabled = true;
+                lblExpiry.Enabled = true;
+                dTPickerPassportExpiryDate.Enabled = true;
+            }
+           
             No = true;
         }
 
