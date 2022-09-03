@@ -19,12 +19,12 @@ namespace PassportApplication
 
         private void Form3_Load(object sender, EventArgs e)
         {
-            lblGuardianName.Text = Form1.guardianName;
-            lblGuardianHome.Text = Form1.guardianHomeAddress;
-            lblGuardianPhone.Text = Form1.guardianPhone.ToString();
-            lblPassportNo.Text = Form1.oldPassportNo;
-            lblPassportIssueDate.Text = Form1.passportIssueDate;
-            lblPassportExpiryDate.Text = Form1.passportExpiryDate;
+        //    lblGuardianName.Text = Form1.guardianName;
+        //    lblGuardianHome.Text = Form1.guardianHomeAddress;
+        //    lblGuardianPhone.Text = Form1.guardianPhone.ToString();
+        //    lblPassportNo.Text = Form1.oldPassportNo;
+        //    lblPassportIssueDate.Text = Form1.passportIssueDate;
+        //    lblPassportExpiryDate.Text = Form1.passportExpiryDate;
 
             if (Form1.Ordinary)
             {
