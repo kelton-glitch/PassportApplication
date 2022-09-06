@@ -7,15 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.OleDb;
+//using System.Data.OleDb;
 
 namespace PassportApplication
 {
     public partial class Form1 : Form
     {
         public static Boolean Yes, No, Ordinary, Diplomatic, International;
-        //public static string firstName, middleName, lastName, emailAddress, homeAddress, Occupation ,dateOfBirth, destinationCountry , guardianName, guardianHomeAddress, oldPassportNo, passportIssueDate, passportExpiryDate;
-        //public static int phoneNumber, guardianPhone;
+        public static string firstName, middleName, lastName, emailAddress, homeAddress, Occupation ,dateOfBirth, destinationCountry , guardianName, guardianHomeAddress, oldPassportNo, passportIssueDate, passportExpiryDate;
+        public static int phoneNumber, guardianPhone;
         private void rdbYes_CheckedChanged(object sender, EventArgs e)
         {
             if (rdbYes.Checked)
@@ -65,9 +65,9 @@ namespace PassportApplication
         {
             InitializeComponent();
         }
-        OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;data Source=db_information.mdb");
-        OleDbCommand cmd = new OleDbCommand();
-        OleDbDataAdapter da = new OleDbDataAdapter();
+        //OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;data Source=db_information.mdb");
+        //OleDbCommand cmd = new OleDbCommand();
+        //OleDbDataAdapter da = new OleDbDataAdapter();
         private void btnSubmit_Click(object sender, EventArgs e)
         {
             DialogResult dr = MessageBox.Show(
@@ -99,25 +99,25 @@ namespace PassportApplication
                 }
 
                 /// In case of implementing a class using a database
-                //var a = int.Parse(txtPhoneNumber.Text);
+
 
                 //Person person = new Person();
-                Person.FirstName = txtfirstName.Text;
-                Person.MiddleName = txtMiddleName.Text;
-                Person.LastName = txtLastName.Text;
-                Person.Destination = txtDestination.Text;
-                Person.Occupation = txtOccupation.Text;
-                Person.DateOfBirth = dateTimePicker1.Value.ToString("dd MMM yyyy");
-                Person.EmailAddress = txtEmailAddress.Text;
-                Person.HomeAddress = txtHomeAddress.Text;
-                Person.PhoneNumber = txtPhoneNumber.Text;
-                Person.GuardianPhone = txtGuardianPhone.Text;
-                Person.GuardianName = txtGuardianName.Text;
-                Person.GuardianAddress = txtGuardianHome.Text;
-                Person.PassportExpiryDate = dTPickerPassportExpiryDate.ToString();
-                Person.PassportIssueDate = dTPickerPassportIssueDate.ToString();
-                Person.PassportNumber = int.Parse(txtExpiredPassport.Text);
-                /*
+                //Person.FirstName = txtfirstName.Text;
+                //Person.MiddleName = txtMiddleName.Text;
+                //Person.LastName = txtLastName.Text;
+                //Person.Destination = txtDestination.Text;
+                //Person.Occupation = txtOccupation.Text;
+                //Person.DateOfBirth = dateTimePicker1.Value.ToString("dd MMM yyyy");
+                //Person.EmailAddress = txtEmailAddress.Text;
+                //Person.HomeAddress = txtHomeAddress.Text;
+                //Person.PhoneNumber = txtPhoneNumber.Text;
+                //Person.GuardianPhone = txtGuardianPhone.Text;
+                //Person.GuardianName = txtGuardianName.Text;
+                //Person.GuardianAddress = txtGuardianHome.Text;
+                //Person.PassportExpiryDate = dTPickerPassportExpiryDate.ToString();
+                //Person.PassportIssueDate = dTPickerPassportIssueDate.ToString();
+                //Person.PassportNumber = int.Parse(txtExpiredPassport.Text);
+
                 firstName = txtfirstName.Text;
                 middleName = txtMiddleName.Text;
                 lastName = txtLastName.Text;
@@ -133,10 +133,10 @@ namespace PassportApplication
                 guardianHomeAddress = txtGuardianHome.Text;
                 guardianPhone = int.Parse(txtGuardianPhone.Text);
 
-                oldPassportNo = txtExpiredPassport.Text;s
+                oldPassportNo = txtExpiredPassport.Text; 
                 passportIssueDate = dTPickerPassportIssueDate.Value.ToString("dd MMM yyyy");
                 passportExpiryDate = dTPickerPassportExpiryDate.Value.ToString("dd MMM yyyy");
-                */
+
 
                 this.Hide();
                

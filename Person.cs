@@ -6,76 +6,76 @@ using System.Threading.Tasks;
 
 namespace PassportApplication
 {
-    public static class Person
+    public class Person
     {
-        private static string firstName;
-        private static string middleName;
-        private static string lastName;
-        private static string emailAddress;
-        private static string occupation;
-        private static string destination;
-        private static string homeAddress;
-        private static string phoneNumber;
-        private static string dateOfBirth;
+        private string firstName;
+        private string middleName;
+        private string lastName;
+        private string emailAddress;
+        private string occupation;
+        private string destination;
+        private string homeAddress;
+        private int phoneNumber;
+        private string dateOfBirth;
 
-        private static string guardianName;
-        private static string guardianAddress;
-        private static string guardianPhone;
+        private string guardianName;
+        private string guardianAddress;
+        private string guardianPhone;
 
-        private static int oldPassportNumber;
-        private static string passportIssueDate;
-        private static string passportExpiryDate;
+        private int oldPassportNumber;
+        private string passportIssueDate;
+        private string passportExpiryDate;
 
         //PERSONAL INFORMATION
-        public static string FirstName
+        public string FirstName
         {
             get { return firstName; }
             set { firstName = value; }
         }
 
-        public static string MiddleName
+        public string MiddleName
         {
             get { return middleName; }
             set { middleName = value; }
         }
 
-        public static string LastName
+        public string LastName
         {
             get { return lastName; }
             set { lastName = value; }
         }
 
-        public static string EmailAddress
+        public string EmailAddress
         {
             get { return emailAddress; }
             set { emailAddress = value; }
         }
 
-        public static string PhoneNumber
+        public int PhoneNumber
         {
             get { return phoneNumber; }
             set { phoneNumber = value; }
         }
 
-        public static string HomeAddress
+        public string HomeAddress
         {
             get { return homeAddress; }
             set { homeAddress = value; }
         }
 
-        public static string Destination
+        public string Destination
         {
             get { return destination; }
             set { destination = value; }
         }
 
-        public static string Occupation
+        public string Occupation
         {
             get { return occupation; }
             set { occupation = value; }
         }
 
-        public static string DateOfBirth
+        public string DateOfBirth
         {
             get { return dateOfBirth; }
             set { dateOfBirth = value; }
@@ -84,13 +84,13 @@ namespace PassportApplication
 
         //GUARDIAN INFORMATION
 
-        public static string GuardianName
+        public string GuardianName
         {
             get { return guardianName; }
             set { guardianName = value; }
         }
 
-        public static string GuardianAddress
+        public string GuardianAddress
         {
             get { return guardianAddress; }
             set
@@ -99,7 +99,7 @@ namespace PassportApplication
             }
         }
 
-        public static string GuardianPhone
+        public string GuardianPhone
         {
             get { return guardianPhone; }
             set { guardianPhone = value; }
@@ -108,19 +108,19 @@ namespace PassportApplication
 
         //OLO PASSPORT INFORMATION
 
-        public static int PassportNumber
+        public int PassportNumber
         {
             get { return oldPassportNumber; }
             set { oldPassportNumber = value; }
         }
 
-        public static string PassportIssueDate
+        public string PassportIssueDate
         {
             get { return passportIssueDate; }
             set { passportIssueDate = value; }  
         }
 
-        public static string PassportExpiryDate
+        public string PassportExpiryDate
         {
             get { return passportExpiryDate; }
             set

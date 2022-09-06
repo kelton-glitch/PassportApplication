@@ -19,15 +19,15 @@ namespace PassportApplication
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            //lblFirstName.Text = Person.FirstName;
-            //lblMiddleName.Text = Form1.middleName;
-            //lblLastName.Text = Form1.lastName;
-            //lblEmailAddress.Text = Form1.emailAddress;
-            //lblDateOfBirth.Text = Form1.dateOfBirth;
-            //lblPhoneNumber.Text = Form1.phoneNumber.ToString();
-            //lblHomeAddress.Text = Form1.homeAddress;
-            //lblOccupation.Text = Form1.Occupation;
-            //lblDestination.Text = Form1.destinationCountry;
+            lblFirstName.Text = Form1.firstName;
+            lblMiddleName.Text = Form1.middleName;
+            lblLastName.Text = Form1.lastName;
+            lblEmailAddress.Text = Form1.emailAddress;
+            lblDateOfBirth.Text = Form1.dateOfBirth;
+            lblPhoneNumber.Text = Form1.phoneNumber.ToString();
+            lblHomeAddress.Text = Form1.homeAddress;
+            lblOccupation.Text = Form1.Occupation;
+            lblDestination.Text = Form1.destinationCountry;
 
         }
 
